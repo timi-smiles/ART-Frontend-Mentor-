@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Art gallery website</title>
+  </head>
+  <body>
+    <div class="art-gallery">
+      <div class="art-gallery__header">
+        <div class="art-gallery__header-blackbg"></div>
+        <img
+          src="./assets/modern_art_gallery.svg"
+          alt=""
+          class="art-gallery__header-name-img"
+        />
+
+        <div class="art-gallery__header-pic">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="./assets/desktop/image-hero.jpg"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="./assets/tablet/image-hero.jpg"
+            />
+            <img
+              src="./assets/mobile/image-hero.jpg"
+              alt="Description of the image"
+            />
+          </picture>
+        </div>
+
+        <div class="art-gallery__header-container">
+          <div class="art-gallery__header-details">
+            <h1 class="art-gallery__header-heading heading-XL">
+              Modern <br />
+              Art Gallery
+            </h1>
+            <div class="art-gallery__header-text text1">
+              The arts in the collection of the Modern Art Gallery all started
+              from a spark of inspiration. Will these pieces inspire you? Visit
+              us and find out.
+            </div>
+            <div class="art-gallery__button">
+              <div class="art-gallery__button-blc btn-text">Our location</div>
+              <div class="art-gallery__button-gln">
+                <img src="./assets/icon-arrow-right.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="art-gallery__content">
+        <div class="art-gallery__content-pic1">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="./assets/desktop/image-grid-1.jpg"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="./assets/tablet/image-grid-1.jpg"
+            />
+            <img
+              src="./assets/mobile/image-grid-1.jpg"
+              alt="Description of the image"
+            />
+          </picture>
+        </div>
+        <div class="art-gallery__content-description-1">
+          <h2 class="art-gallery__heading2-black heading-L">
+            Your day <br />
+            at the gallery
+          </h2>
+          <div class="art-gallery__text2-grey text1">
+            Wander through our distinct collections and find new insights about
+            our artists. Dive into the details of their creative process.
+          </div>
+        </div>
+        <div class="art-gallery__content-pic2">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="./assets/desktop/image-grid-2.jpg"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="./assets/tablet/image-grid-2.jpg"
+            />
+            <img
+              src="./assets/mobile/image-grid-2.jpg"
+              alt="Description of the image"
+            />
+          </picture>
+        </div>
+        <div class="art-gallery__content-pic3">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="./assets/desktop/image-grid-3.jpg"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="./assets/tablet/image-grid-3.jpg"
+            />
+            <img
+              src="./assets/mobile/image-grid-3.jpg"
+              alt="Description of the image"
+            />
+          </picture>
+        </div>
+        <div class="art-gallery__content-description-2">
+          <h2 class="art-gallery__heading2-white heading-L">
+            Come & be inspired
+          </h2>
+          <div class="art-gallery__text2-white text1">
+            We’re excited to welcome you to our gallery and see how our
+            collections influence you.
+          </div>
+        </div>
+      </div>
+
+      <div class="art-gallery__footer">
+        <h2 class="art-gallery__heading2-white heading-M">
+          Modern <br />
+          Art Gallery
+        </h2>
+        <div class="art-gallery__footer-text2-white text2">
+          The Modern Art Gallery is free to all visitors and open seven days a
+          week from 8am to 9pm. Find us at USA.
+        </div>
+
+        <div class="art-gallery__footer-icons">
+          <img src="./assets/icon-facebook.svg" alt="" />
+          <img src="./assets/icon-instagram.svg" alt="" />
+          <img src="./assets/icon-twitter.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

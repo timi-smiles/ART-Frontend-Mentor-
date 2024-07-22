@@ -1,0 +1,94 @@
+.text1 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 0px;
+  line-height: 28px;
+
+  @media (min-width: 1440px) {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+.text2 {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 0px;
+  line-height: 26px;
+
+  @media (min-width: 1440px) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.btn-text {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Big Shoulders Display", sans-serif;
+  letter-spacing: 3.64px;
+  line-height: auto;
+}
+
+.heading-XL {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: "Big Shoulders Display", sans-serif;
+  letter-spacing: 0px;
+  line-height: 55px;
+
+  @media (min-width: 768px) {
+    font-size: 70px;
+    line-height: 65px;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 96px;
+    line-height: 88px;
+  }
+}
+
+.heading-L {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Big Shoulders Display", sans-serif;
+  letter-spacing: 0px;
+  line-height: 45px;
+
+  @media (min-width: 768px) {
+    font-size: 50px;
+    line-height: 45px;
+  }
+  @media (min-width: 1440px) {
+    font-size: 60px;
+    line-height: 60px;
+  }
+}
+
+.heading-M {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Big Shoulders Display", sans-serif;
+  letter-spacing: 0px;
+  line-height: 20px;
+
+  @media (min-width: 1440px) {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+.heading-S {
+  font-size: 32px;
+  font-weight: 900;
+  font-family: "Big Shoulders Display", sans-serif;
+  letter-spacing: 0px;
+  line-height: 32px;
+
+  @media (min-width: 1440px) {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
